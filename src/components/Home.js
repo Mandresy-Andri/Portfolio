@@ -296,7 +296,7 @@ function Home() {
         className="github">
         <FontAwesomeIcon icon={faGithub} size="3x" />
       </a>
-      <a rel="noreferrer" target="_blank" href="www.linkedin.com/in/mandresy-andria"
+      <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/mandresy-andria/"
         className="linkedin">
         <FontAwesomeIcon icon={faLinkedin} size="3x" />
       </a>

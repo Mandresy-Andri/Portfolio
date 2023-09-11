@@ -9,7 +9,7 @@ import Search from '../img/search.png';
 import Inventory from '../img/inventory.png';
 import Api from '../img/api.png';
 import SoloFlix from '../img/soloflix.png';
-import Schedule from '../img/schedule-app.png';
+import Dentist from '../img/dentist app pic.png';
 import Layout from '../img/layout.png';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -76,7 +76,7 @@ function Home() {
 
         return (
           <div>
-        {/* BACGROUND IMAGE WITH NAME */}
+        {/* BACKGROUND IMAGE WITH NAME */}
         <div className='home-box revealUp mb-2'>
           <h1>Mandresy Fenohasina Andriamasinoro</h1>   
           <h2>Senior student at Marymount University</h2>   
@@ -192,16 +192,15 @@ function Home() {
         <div className='container'>
           <div className='card'>
             <div className='image'>
-              <img href = "#" alt="schedule app" src={Schedule}></img>
+              <img href = "#" alt="schedule app" src={Dentist}></img>
             </div>
             <div className='content'>
-              <h3>Schedule App</h3>
+              <h3>Dentist Management App</h3>
               <p>
-                Fullstack REST schedule web application. <br></br>
-                This application allows the user to create, 
-                edit, and delete events on a weekly schedule table.
+              Full-stack web application enabling users to efficiently manage customer and invoice data with
+              CRUD functionality and dynamic search filters.
                 <br></br>
-                <Button  variant="secondary" target="_blank" href='https://schedule-app-frontend.onrender.com/'>Take a look</Button>
+                <Button  variant="secondary" target="_blank" href='https://oralcare.onrender.com/'>Take a look</Button>
               </p>
             </div>
           </div>    

@@ -196,7 +196,7 @@ function Home() {
             <div className='content'>
               <h3>Dentist Management App</h3>
               <p>
-              Full-stack web application enabling users to efficiently manage customers, schedule appointments, generate invoices,  
+              Full-stack web application enabling users to efficiently manage customers, schedule appointments, nad generate invoices and prescriptions.  
                 <br></br>
                 <Button  variant="secondary" target="_blank" href='https://amfdental.online/'>Take a look</Button>
               </p>

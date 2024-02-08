@@ -79,7 +79,7 @@ function Home() {
         {/* BACKGROUND IMAGE WITH NAME */}
         <div className='home-box revealUp mb-2'>
           <h1>Mandresy Fenohasina Andriamasinoro</h1>   
-          <h2>Senior student at Marymount University</h2>   
+          <h2>Software Developer</h2>   
         </div>
         
         
@@ -92,7 +92,7 @@ function Home() {
                   <Card.Subtitle style={{paddingTop:'3%'}}><h2>My name is Mandresy</h2></Card.Subtitle>
                   <Card.Text style={{paddingTop:'3%'}}>
                   <p>Back-End Developer leveraging knowledge in Computer Science concepts to build robust
-                    and clean systems. I will graduate in the Summer of 2023 with a Bachelor of Science in Information Technology 
+                    and clean systems. Recently graduated with a Bachelor of Science in Information Technology 
                     with a Computer Science Minor. 
                     <br></br><br></br>
                     With my experience, schoolwork, and projects in software development, I aim for a career in building robust 
@@ -103,7 +103,7 @@ function Home() {
           <Card className='border-0' style={{height:'100%', backgroundColor:'black'}}>
                 <Card.Img style={{
                   display:'block',maxWidth:'400px' ,
-                  maxHeight:'900px',width:'auto',height:'auto'}} 
+                  maxHeight:'900px',width:'auto',height:'100%'}} 
                   variant="bottom" src={Me} 
                   className='rounded'
                   />
@@ -177,9 +177,8 @@ function Home() {
             <div className='content'>
               <h3>SoloFlix</h3>
               <p>
-              Movie trailer streaming platform similar to Netflix, featuring a Spring Boot resource server,
-              MySQL database, a responsive and user-friendly React frontend, and a custom OAuth2 server 
-              for security.
+              Platform similar to Netflix where you can watch trailer for the latest movies. System consists of a Spring Boot resource server,
+              MySQL database, a responsive and user-friendly React frontend.
               <br></br>
               <Button  variant="secondary" target="_blank" href='https://soloflix.onrender.com/'>Take a look</Button>
               </p>
@@ -197,10 +196,9 @@ function Home() {
             <div className='content'>
               <h3>Dentist Management App</h3>
               <p>
-              Full-stack web application enabling users to efficiently manage customer and invoice data with
-              CRUD functionality and dynamic search filters.
+              Full-stack web application enabling users to efficiently manage customers, schedule appointments, generate invoices,  
                 <br></br>
-                <Button  variant="secondary" target="_blank" href='https://oralcare.onrender.com/'>Take a look</Button>
+                <Button  variant="secondary" target="_blank" href='https://amfdental.online/'>Take a look</Button>
               </p>
             </div>
           </div>    

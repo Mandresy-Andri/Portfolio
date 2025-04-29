@@ -10,7 +10,7 @@ function App() {
     <NavigationBar/>
     <Routes>
     <Route path='/' exact element={<Home/>}/>
-    <Route path='/blog' element={<BlogArticle title='Blog Article' content='Personal Blogs' author='Andriamasinoro Mandresy' date='2023-05-10' tags={['blog', 'portfolio']}/>}/>
+    <Route path='/blog' exact element={<BlogArticle/>}/>
     </Routes>
   </Router>
   );

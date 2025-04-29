@@ -2,10 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavigationBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ height: "5em" }}>
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ minHeight: "5em" }}>
       <Container>
         <Navbar.Brand as={Link} to="/">Mandresy Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

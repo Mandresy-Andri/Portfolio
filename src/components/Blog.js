@@ -60,6 +60,7 @@ const BlogArticle = () => {
     
   return (
     <>
+        <div className='revealUp pt-2 pb-5'>
     <div className="max-w-4xl mx-auto sm:p-6 lg:p-8">
       {/* Image with overlay title */}
       <h1 style={{backgroundColor:'black', padding:'10px', color:'white', paddingLeft:'20%', paddingRight:'20%'}} >
@@ -144,6 +145,13 @@ const BlogArticle = () => {
         <hr></hr>
       </div>
     </div>
+
+
+
+
+        </div>
+
+
 
             {/* ENDING */}
                 <div className="social-container revealUp">
